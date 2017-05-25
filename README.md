@@ -74,9 +74,20 @@ done on most unix/linux systems like so:
 swipl
 ```
 If you have a windows system there should be a command line interpreter that
-came with the prolog installation. That you can launch.
+came with the prolog installation that you can launch.
 
+Once the SWI-Prolog environment is up and running in the _same directory as the 
+source file_ load the file like so:
+```
+consult('sde3.pro').
+```
 
+After that you should be able to use it like so:
+```
+mu(**_<Set to Check>_**).
+```
+
+To which the program will return true or false.
 
 ## License Information
 This software is licensed under the GNU GPL V3.0. The actual license can be
