@@ -84,7 +84,7 @@ consult('sde3.pro').
 
 After that you should be able to use it like so:
 ```
-mu( **_ <Set to Check> _**).
+mu(<Set to Check>).
 ```
 
 To which the program will return true or false.
@@ -105,5 +105,4 @@ a violation of Clemson University's [Academic Integrity Policy](http://www.clems
 If you choose to do so, you are doing so without the knowledge of the owner of
 this repo and at your own risk. If you choose to do so you are doing so alone of 
 your own accord and the owner of this repo carries no responsibility for your 
-actions. You have been warned.  # FSN-Semantic-Validator
-Implementation of a semantic validator for Fuzzy Set Notation using Prolog.
+actions. You have been warned.
