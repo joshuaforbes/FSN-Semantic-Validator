@@ -84,7 +84,7 @@ consult('sde3.pro').
 
 After that you should be able to use it like so:
 ```
-mu(**_<Set to Check>_**).
+mu( **_ <Set to Check> _**).
 ```
 
 To which the program will return true or false.
