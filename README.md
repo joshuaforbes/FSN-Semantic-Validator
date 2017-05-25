@@ -12,15 +12,31 @@ programs do.
 ## Guidelines?
 The guidelines are better defined with some common structures in place before 
 hand. Fuzzy Set Notation is best defined as a two tuple like so:
-> (domain, slist) 
+
+```
+(domain, slist) 
+```
+
 Where domain is a single two tuple like so:
-> (DL, DH)
+
+```
+(DL, DH)
+```
+
 Where DL is the lower bound of the domain and DH is the upper bound of the
 domain. 
 slist can be defined as a set of two tuples like so:
-> [tuple_1, ... , tuple_n-1, tuple_n]
-With each tuple consisting of an integer and a floating point value like so
-> (Di, Vi)
+
+```
+[tuple_1, ... , tuple_n-1, tuple_n]
+```
+
+With each tuple consisting of an integer and a floating point value like so:
+
+```
+(Di, Vi)
+```
+
 Where Di is the integer value in the domain, and Vi is the floating point 
 membership function value.  
 
