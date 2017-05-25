@@ -41,18 +41,13 @@ Where Di is the integer value in the domain, and Vi is the floating point
 membership function value. With these structures in place the list of guidelines
 below for semantic validity should be fairly straight forward.
 
-1. input consists of a single two tuple where the first element is a two tuple 
-and the second element is a list (slist) of two tuples.
+1. input consists of a single two tuple where the first element is a two tuple and the second element is a list (slist) of two tuples.
 2. the domain is a two tuple with the first integer being <= the second.
-3. slist is a Prolog list of two tuples with each integer in each tuple being
-within the defined domain.
+3. slist is a Prolog list of two tuples with each integer in each tuple beingwithin the defined domain.
 4. slist is not empty, or slist has at least one element.
-5. all floating point values in slist tuples are within the interval of 0 to 1 
-inclusively.
-6. The integer in the first tuple in slist is the lower bound of the defined
-domain.
-7. The integer of the last tuple in slist is the upper bound of the defined
-domain.
+5. all floating point values in slist tuples are within the interval of 0 to 1 inclusively.
+6. The integer in the first tuple in slist is the lower bound of the defineddomain.
+7. The integer of the last tuple in slist is the upper bound of the defineddomain.
 8. The integers of the tuples in slist are consecutive.
   
 
