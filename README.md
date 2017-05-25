@@ -43,16 +43,16 @@ membership function value.
 With these structures in place the list of guidelines
 below for semantic validity should be fairly straight forward.
 
-**
-- input consists of a single two tuple where the first element is a two tuple and the second element is a list (slist) of two tuples.
-- the domain is a two tuple with the first integer being <= the second.
-- slist is a Prolog list of two tuples with each integer in each tuple beingwithin the defined domain.
-- slist is not empty, or slist has at least one element.
-- all floating point values in slist tuples are within the interval of 0 to 1 inclusively.
-- The integer in the first tuple in slist is the lower bound of the defineddomain.
-- The integer of the last tuple in slist is the upper bound of the defineddomain.
-- The integers of the tuples in slist are consecutive.
-**
+
+- **input consists of a single two tuple where the first element is a two tuple and the second element is a list (slist) of two tuples.**
+- **the domain is a two tuple with the first integer being <= the second.**
+- **slist is a Prolog list of two tuples with each integer in each tuple beingwithin the defined domain.**
+- **slist is not empty, or slist has at least one element.**
+- **all floating point values in slist tuples are within the interval of 0 to 1 inclusively.**
+- **The integer in the first tuple in slist is the lower bound of the defineddomain.**
+- **The integer of the last tuple in slist is the upper bound of the defineddomain.**
+- **The integers of the tuples in slist are consecutive.**
+
 
 ## Woah! Wait a Minute, I See More Predicates Than mu(). What About Those?
 Of course, and you're right! There are more predicates defined than mu(). These
